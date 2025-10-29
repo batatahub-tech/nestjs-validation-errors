@@ -1,19 +1,21 @@
-# @batatahub/nestjs-validation-errors
+# @batatahub.com/nestjs-validation-errors
 
 A simple NestJS filter that formats validation errors in a consistent structure.
 
 ## Installation
 
 ```bash
-npm install @batatahub/nestjs-validation-errors
+npm install @batatahub.com/nestjs-validation-errors
 ```
 
 ## Peer Dependencies
 
 This package requires the following peer dependencies:
 
+- `@nestjs/core` (^10.0.0 || ^11.0.0)
 - `@nestjs/common` (^10.0.0 || ^11.0.0)
 - `class-validator` (^0.14.0)
+- `"class-transformer` (^0.5.1)
 
 ## Usage
 
@@ -96,4 +98,4 @@ MIT
 
 ## Author
 
-Agency PRO <contato@agency-pro.com> (https://agency-pro.com)
+Batata Hub <tech@batatahub.com> (https://batatahub.com)
