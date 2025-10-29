@@ -1,0 +1,49 @@
+{
+  "name": "@batatahub.com/nestjs-validation-errors",
+  "version": "1.0.0",
+  "description": "A simple NestJS filter that formats validation errors in a consistent structure.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "peerDependencies": {
+    "@nestjs/core": "^10.0.0 || ^11.0.0",
+    "@nestjs/common": "^10.0.0 || ^11.0.0",
+    "class-validator": "^0.14.0",
+    "class-transformer": "^0.5.1"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^11.1.8",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "nestjs",
+    "validation",
+    "errors",
+    "filter",
+    "dto",
+    "batatahub"
+  ],
+  "license": "MIT",
+  "author": "Batata Hub <tech@batatahub.com> (https://batatahub.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/batatahub-tech/nestjs-validation-errors"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
