@@ -1,6 +1,6 @@
 {
   "name": "@batatahub.com/nestjs-validation-errors",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A simple NestJS filter that formats validation errors in a consistent structure.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
